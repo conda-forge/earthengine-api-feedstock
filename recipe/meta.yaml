@@ -26,6 +26,7 @@ requirements:
     - python
     - google-api-python-client
     - pyopenssl >=0.11
+    - oauth2client
 
 test:
   imports:
