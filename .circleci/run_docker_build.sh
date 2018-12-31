@@ -7,6 +7,9 @@
 
 set -xeuo pipefail
 
+THISDIR="$( cd "$( dirname "$0" )" >/dev/null && pwd )"
+PROVIDER_DIR="$(basename $THISDIR)"
+
 FEEDSTOCK_ROOT=$(cd "$(dirname "$0")/.."; pwd;)
 RECIPE_ROOT="${FEEDSTOCK_ROOT}/recipe"
 
@@ -35,16 +38,19 @@ DOCKER_IMAGE=$(cat "${FEEDSTOCK_ROOT}/.ci_support/${CONFIG}.yaml" | shyaml get-v
 mkdir -p "$ARTIFACTS"
 DONE_CANARY="$ARTIFACTS/conda-forge-build-done-${CONFIG}"
 rm -f "$DONE_CANARY"
+# Enable running in interactive mode attached to a tty
+DOCKER_RUN_ARGS=" -it "
 
-docker run -it \
-           -v "${RECIPE_ROOT}":/home/conda/recipe_root \
-           -v "${FEEDSTOCK_ROOT}":/home/conda/feedstock_root \
+
+docker run ${DOCKER_RUN_ARGS} \
+           -v "${RECIPE_ROOT}":/home/conda/recipe_root:ro,z \
+           -v "${FEEDSTOCK_ROOT}":/home/conda/feedstock_root:rw,z \
            -e CONFIG \
            -e BINSTAR_TOKEN \
            -e HOST_USER_ID \
            $DOCKER_IMAGE \
            bash \
-           /home/conda/feedstock_root/.circleci/build_steps.sh
+           /home/conda/feedstock_root/${PROVIDER_DIR}/build_steps.sh
 
 # verify that the end of the script was reached
 test -f "$DONE_CANARY"
