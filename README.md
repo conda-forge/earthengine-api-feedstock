@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About earthengine-api
 =====================
 
@@ -20,8 +16,14 @@ Google Earth Engine, a web platform for global scale geospatial analysis.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/earthengine-api-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/earthengine-api-feedstock)
+
+<table><tr>
+    <td>All platforms:</td>
+    <td>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -116,6 +118,7 @@ Feedstock Maintainers
 =====================
 
 * [@arybak45](https://github.com/arybak45/)
+* [@mike-d-d](https://github.com/mike-d-d/)
 * [@saicheems](https://github.com/saicheems/)
 * [@twotabbies](https://github.com/twotabbies/)
 * [@tylere](https://github.com/tylere/)
