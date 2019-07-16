@@ -17,10 +17,11 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>All platforms:</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4769&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/earthengine-api-feedstock?branchName=master">
+      </a>
     </td>
   </tr>
 </table>
@@ -117,7 +118,9 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@arian487](https://github.com/arian487/)
 * [@arybak45](https://github.com/arybak45/)
+* [@dag-ee](https://github.com/dag-ee/)
 * [@mike-d-d](https://github.com/mike-d-d/)
 * [@saicheems](https://github.com/saicheems/)
 * [@twotabbies](https://github.com/twotabbies/)
