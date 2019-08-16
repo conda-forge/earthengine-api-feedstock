@@ -120,7 +120,9 @@ Feedstock Maintainers
 
 * [@arian487](https://github.com/arian487/)
 * [@arybak45](https://github.com/arybak45/)
+* [@bengalin](https://github.com/bengalin/)
 * [@dag-ee](https://github.com/dag-ee/)
+* [@dotstarmoney](https://github.com/dotstarmoney/)
 * [@joannalcy](https://github.com/joannalcy/)
 * [@mike-d-d](https://github.com/mike-d-d/)
 * [@saicheems](https://github.com/saicheems/)
