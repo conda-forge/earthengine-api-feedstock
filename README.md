@@ -124,6 +124,7 @@ Feedstock Maintainers
 * [@dag-ee](https://github.com/dag-ee/)
 * [@dotstarmoney](https://github.com/dotstarmoney/)
 * [@joannalcy](https://github.com/joannalcy/)
+* [@michaelfdewitt](https://github.com/michaelfdewitt/)
 * [@mike-d-d](https://github.com/mike-d-d/)
 * [@saicheems](https://github.com/saicheems/)
 * [@sufyanAbbasi](https://github.com/sufyanAbbasi/)
