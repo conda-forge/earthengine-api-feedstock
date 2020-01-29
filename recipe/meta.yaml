@@ -1,6 +1,6 @@
 {% set name = "earthengine-api" %}
-{% set version = "0.1.211" %}
-{% set sha256 = "5bb12729750493e44f18479d19c5dd2b827d2b9021961cd04e7e610f560dc9e1" %}
+{% set version = "0.1.212" %}
+{% set sha256 = "8e24db1d7a7c352b7bb1a619c6a3ffa4fdc31c677776d37c703afa5ed85ee440" %}
 
 package:
   name: {{ name|lower }}
@@ -29,6 +29,7 @@ requirements:
     - google-auth-httplib2 >=0.0.3
     - google-cloud-storage
     - httplib2 >=0.9.2,<1dev
+    - httplib2shim
     - python
     - setuptools
     - six
