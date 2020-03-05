@@ -1,6 +1,6 @@
 {% set name = "earthengine-api" %}
-{% set version = "0.1.213" %}
-{% set sha256 = "1a98127268ead4c7ecfbc8235643a93e518efb9edf8ad2951ccad65da9123327" %}
+{% set version = "0.1.214" %}
+{% set sha256 = "333fd58c08aa636f16343090d4a42357ff8c9ce4755717e91077ee517de8f9c4" %}
 
 package:
   name: {{ name|lower }}
@@ -45,7 +45,7 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: 'Earth Engine Python API'
+  summary: Earth Engine Python API
   description: |
     The Earth Engine Python API allows developers to interact with
     Google Earth Engine, a web platform for global scale geospatial analysis.
