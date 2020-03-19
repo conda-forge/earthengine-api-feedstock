@@ -1,6 +1,6 @@
 {% set name = "earthengine-api" %}
-{% set version = "0.1.215" %}
-{% set sha256 = "cec03d589660582b3f8f28e4460cac59e9ddadb60b0dc77dbc56f1d90a7469e5" %}
+{% set version = "0.1.216" %}
+{% set sha256 = "ae04d2752e67679afc4a64d16f0322df555246943ce62d522abb42c676295e8c" %}
 
 package:
   name: {{ name|lower }}
