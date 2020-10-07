@@ -5,9 +5,13 @@ Home: https://earthengine.google.com/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/earthengine-api-feedstock/blob/master/LICENSE.txt)
 
 Summary: Earth Engine Python API
+
+Development: https://github.com/google/earthengine-api/
+
+Documentation: https://developers.google.com/earth-engine/
 
 The Earth Engine Python API allows developers to interact with
 Google Earth Engine, a web platform for global scale geospatial analysis.
