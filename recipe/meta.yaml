@@ -1,6 +1,6 @@
 {% set name = "earthengine-api" %}
-{% set version = "0.1.253" %}
-{% set sha256 = "c27b5efb4ccbbcc6c2166c1893013689c830bfc0b3cceadef20bbfbb5a7b2ff6" %}
+{% set version = "0.1.254" %}
+{% set sha256 = "2a2cd84012169d4923f85a84522eafc1c466b33ef52bbaab4520c0164d25dcf9" %}
 
 package:
   name: {{ name|lower }}
@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
     - future
@@ -29,7 +29,7 @@ requirements:
     - google-auth-httplib2 >=0.0.3
     - google-cloud-storage
     - httplib2 >=0.9.2,<1dev
-    - python
+    - python >=3.6
     - setuptools
     - six
 
