@@ -134,6 +134,3 @@ Feedstock Maintainers
 * [@twotabbies](https://github.com/twotabbies/)
 * [@tylere](https://github.com/tylere/)
 
-
-<!-- dummy commit to enable rerendering -->
-
