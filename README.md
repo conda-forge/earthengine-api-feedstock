@@ -158,6 +158,7 @@ Feedstock Maintainers
 * [@joannalcy](https://github.com/joannalcy/)
 * [@michaelfdewitt](https://github.com/michaelfdewitt/)
 * [@mike-d-d](https://github.com/mike-d-d/)
+* [@naschmitz](https://github.com/naschmitz/)
 * [@saicheems](https://github.com/saicheems/)
 * [@sufyanAbbasi](https://github.com/sufyanAbbasi/)
 * [@twotabbies](https://github.com/twotabbies/)
