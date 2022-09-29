@@ -154,6 +154,7 @@ Feedstock Maintainers
 * [@bengalin](https://github.com/bengalin/)
 * [@dag-ee](https://github.com/dag-ee/)
 * [@dotstarmoney](https://github.com/dotstarmoney/)
+* [@jgarcia525](https://github.com/jgarcia525/)
 * [@joannalcy](https://github.com/joannalcy/)
 * [@michaelfdewitt](https://github.com/michaelfdewitt/)
 * [@mike-d-d](https://github.com/mike-d-d/)
