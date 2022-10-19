@@ -1,6 +1,6 @@
 {% set name = "earthengine-api" %}
-{% set version = "0.1.327" %}
-{% set sha256 = "5d242e4ff404e99d7df6e1f32564fb30d95f0c466be0e31521b66d8f24df0696" %}
+{% set version = "0.1.328" %}
+{% set sha256 = "b754dd1a9bf106f82ba40cfe3e19fb64fe08fbcee18c2f7d8ffe73458b334deb" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   entry_points:
     - earthengine = ee.cli.eecli:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
