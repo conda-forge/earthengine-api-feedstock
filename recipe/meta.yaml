@@ -1,6 +1,6 @@
 {% set name = "earthengine-api" %}
-{% set version = "0.1.398" %}
-{% set sha256 = "f062ba0e209ba97dd393d2becbd10e13ad63108d687ec94d0eefdf91f0471d45" %}
+{% set version = "0.1.400" %}
+{% set sha256 = "35cedaec3134488614e0a7db2e2b73d1070a499d8f57b6e0851416caed0a42b3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
