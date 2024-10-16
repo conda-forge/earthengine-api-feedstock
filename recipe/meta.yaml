@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - earthengine = ee.cli.eecli:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -22,6 +22,7 @@ requirements:
   host:
     - python >=3.7
     - pip
+    - setuptools
   run:
     - google-api-python-client >=1.12.1
     - google-auth >=1.4.1
@@ -30,7 +31,6 @@ requirements:
     - httplib2 >=0.9.2,<1dev
     - python >=3.7
     - requests
-    - setuptools
 
 test:
   imports:
