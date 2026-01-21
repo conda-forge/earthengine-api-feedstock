@@ -151,16 +151,10 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bengalin](https://github.com/bengalin/)
-* [@dag-ee](https://github.com/dag-ee/)
-* [@dotstarmoney](https://github.com/dotstarmoney/)
+* [@jdbcode](https://github.com/jdbcode/)
 * [@jgarcia525](https://github.com/jgarcia525/)
-* [@joannalcy](https://github.com/joannalcy/)
 * [@michaelfdewitt](https://github.com/michaelfdewitt/)
-* [@mike-d-d](https://github.com/mike-d-d/)
 * [@naschmitz](https://github.com/naschmitz/)
-* [@saicheems](https://github.com/saicheems/)
 * [@schwehr](https://github.com/schwehr/)
 * [@sufyanAbbasi](https://github.com/sufyanAbbasi/)
-* [@twotabbies](https://github.com/twotabbies/)
 
