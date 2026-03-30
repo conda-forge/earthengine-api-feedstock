@@ -55,10 +55,11 @@ about:
 
 extra:
   recipe-maintainers:
-    - naschmitz
+    - gino-m
     - jdbcode
     - jgarcia525
     - michaelfdewitt
+    - naschmitz
     - schwehr
-    - sufyanAbbasi
     - sgreenberg
+    - sufyanAbbasi
