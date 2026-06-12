@@ -160,4 +160,5 @@ Feedstock Maintainers
 * [@schwehr](https://github.com/schwehr/)
 * [@sgreenberg](https://github.com/sgreenberg/)
 * [@sufyanAbbasi](https://github.com/sufyanAbbasi/)
+* [@kfriis33](https://github.com/kfriis33/)
 
