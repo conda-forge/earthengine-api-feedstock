@@ -155,10 +155,10 @@ Feedstock Maintainers
 * [@gino-m](https://github.com/gino-m/)
 * [@jdbcode](https://github.com/jdbcode/)
 * [@jgarcia525](https://github.com/jgarcia525/)
+* [@kfriis33](https://github.com/kfriis33/)
 * [@michaelfdewitt](https://github.com/michaelfdewitt/)
 * [@naschmitz](https://github.com/naschmitz/)
 * [@schwehr](https://github.com/schwehr/)
 * [@sgreenberg](https://github.com/sgreenberg/)
 * [@sufyanAbbasi](https://github.com/sufyanAbbasi/)
-* [@kfriis33](https://github.com/kfriis33/)
 
